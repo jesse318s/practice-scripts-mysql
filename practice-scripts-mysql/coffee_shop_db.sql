@@ -17,7 +17,7 @@ CREATE TABLE Orders (
     CustomerID INT NOT NULL,
     ProductID INT NOT NULL,
     Quantity INT NOT NULL,
-    OrderDate DATETIME NOT NULL,
+    OrderDate TIMESTAMP NOT NULL,
     PRIMARY KEY (OrderID),
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
