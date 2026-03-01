@@ -36,6 +36,6 @@ VALUES
 
 INSERT INTO Orders (OrderID, CustomerID, ProductID, Quantity, OrderDate)
 VALUES 
-(1, 1, 1, 2, NOW()),
-(2, 1, 2, 1, NOW()),
-(3, 2, 1, 1, NOW());
+(1, 1, 1, 2, CURRENT_TIMESTAMP),
+(2, 1, 2, 1, CURRENT_TIMESTAMP),
+(3, 2, 1, 1, CURRENT_TIMESTAMP);
