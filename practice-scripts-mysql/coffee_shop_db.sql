@@ -36,6 +36,6 @@ VALUES
 
 INSERT INTO Orders (OrderID, CustomerID, ProductID, Quantity, OrderDate)
 VALUES 
-(1, 1, 1, 2, CURRENT_TIMESTAMP),
-(2, 1, 2, 1, CURRENT_TIMESTAMP),
-(3, 2, 1, 1, CURRENT_TIMESTAMP);
+(1, 1, 1, 2, '2026-09-03 12:00:00'),
+(2, 1, 2, 1, '2026-09-03 12:01:00'),
+(3, 2, 1, 1, '2026-09-03 12:02:00');
